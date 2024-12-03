@@ -1,6 +1,6 @@
 // script.js
 document.getElementById("submit-button").addEventListener("click", function () {
-  const correctPassword = "meinPasswort"; // Ersetze durch dein Passwort
+  const correctPassword = "1843"; // Ersetze durch dein Passwort
   const enteredPassword = document.getElementById("password-input").value;
 
   if (enteredPassword === correctPassword) {
