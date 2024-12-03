@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Passwortgeschützte Seite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="login">
+    <h1>Passwortgeschützte Seite</h1>
+    <input type="password" id="password" placeholder="Passwort eingeben">
+    <button onclick="checkPassword()">Login</button>
+    <p id="error" style="color: red;"></p>
+  </div>
+  <div id="protected-content" style="display: none;">
+    <h1>Willkommen!</h1>
+    <p>Dies ist der geschützte Bereich.</p>
+  </div>
+  <script src="script.js"></script>
+
+<script>
+function checkPassword() {
+  const password = document.getElementById('password').value;
+  const correctPassword = "geheim123";
+
+  if (password === correctPassword) {
+    document.getElementById('login').style.display = 'none';
+    document.getElementById('protected-content').style.display = 'block';
+  } else {
+    document.getElementById('error').textContent = 'Falsches Passwort. Bitte versuche es erneut.';
+  }
+}
+</script>
+</body>
+</html>
