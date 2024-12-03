@@ -20,7 +20,7 @@ p{
 
 /* Halbtransparentes Feld */
 .text-box {
-  background-color: rgba(0, 0, 0, 0.5); /* Schwarz mit 50% Transparenz */
+  background-color: rgba(0, 0, 0, 0.8); /* Schwarz mit 50% Transparenz */
   padding: 20px;
   border-radius: 10px; /* Abgerundete Ecken */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Schatteneffekt */
