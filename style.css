@@ -63,12 +63,12 @@ body, html {
 }
 
 h1{
-  color: #00ff00;
+  color: green;
   font-size: 3em;
   font-weight: bold;
 }
 
 p{
-  color:  #00ff00;
+  color:  green;
   font-size: 1em; 
 }
