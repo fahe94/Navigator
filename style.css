@@ -18,6 +18,25 @@ p{
   font-size: 1em; 
 }
 
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .item {
+      background: #f4f4f4;
+      padding: 20px;
+      text-align: center;
+    }
+
+    @media (max-width: 480px) {
+      header {
+        font-size: 18px;
+      }
+    }
+
 /* Halbtransparentes Feld */
 .text-box {
   position: fixed;
