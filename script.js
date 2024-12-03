@@ -1,12 +1,16 @@
-function checkPassword() {
-  const password = document.getElementById('password').value;
-  const correctPassword = "geheim123"; // Hier dein Passwort festlegen
+// script.js
+document.getElementById("submit-button").addEventListener("click", function () {
+  const correctPassword = "meinPasswort"; // Ersetze durch dein Passwort
+  const enteredPassword = document.getElementById("password-input").value;
 
-  if (password === correctPassword) {
-    document.getElementById('login').style.display = 'none';
-    document.getElementById('protected-content').style.display = 'block';
+  if (enteredPassword === correctPassword) {
+    document.getElementById("password-screen").style.display = "none"; // Login ausblenden
+    document.getElementById("content").style.display = "block"; // Inhalt anzeigen
   } else {
-    document.getElementById('error').textContent = 'Falsches Passwort. Bitte versuche es erneut.';
+    const errorMessage = document.getElementById("error-message");
+    errorMessage.style.display = "block"; // Fehlermeldung anzeigen
+    setTimeout(() => {
+      errorMessage.style.display = "none"; // Fehlermeldung nach 2 Sekunden ausblenden
+    }, 2000);
   }
-}
-
+});
