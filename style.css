@@ -7,6 +7,17 @@ body, html {
   overflow: hidden; /* Kein Scrollen */
 }
 
+h1{
+  color: #00ff00;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+p{
+  color:  #00ff00;
+  font-size: 1em; 
+}
+
 /* Video-Hintergrund */
 .video-container {
   position: fixed;
@@ -62,13 +73,4 @@ body, html {
   display: none; /* Versteckt bis Login */
 }
 
-h1{
-  color: #00ff00;
-  font-size: 3em;
-  font-weight: bold;
-}
 
-p{
-  color:  #00ff00;
-  font-size: 1em; 
-}
