@@ -8,4 +8,51 @@ body {
 h1 {
   color: #007BFF;
 }
+/* Grundstil für den ganzen Bildschirm */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  overflow: hidden; /* Verhindert Scrollen */
+}
+
+/* Container für das Video */
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Verhindert Überlappen des Videos */
+}
+
+/* Video selbst */
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%; /* Mindestens die Breite des Bildschirms */
+  min-height: 100%; /* Mindestens die Höhe des Bildschirms */
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: -1; /* Hinter den Inhalt legen */
+}
+
+/* Inhalt über dem Video */
+.content {
+  position: relative;
+  color: white;
+  text-align: center;
+  z-index: 1; /* Inhalt über dem Video anzeigen */
+  padding: 20px;
+}
+
+.content h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.content p {
+  font-size: 1.5em;
+}
 
