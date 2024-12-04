@@ -110,7 +110,7 @@ p{
     position: fixed;
     top: 10%;
     left:40%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
     display: inline-block;
     border-radius: 10px; /* Option: Abgerundete Ecken */
