@@ -105,20 +105,11 @@ p{
   display: none; /* Versteckt bis Login */
 }
 
-.text-box2{
-  position: fixed;
-  top: 20%;
-  left: 20%;
-  backgroundcolor: rgba(0, 0, 0, 0.8);
-  color: white;
-  padding: 60px;
-  border-radius: 10px;
-  z-index: 1;
-  
-}
 
 .windrose{
-      width: 300px;            /* Feste Breite */
+    width: 300px;            /* Feste Breite */
     margin: 20px auto;       /* Zentrieren mit Abstand */
     display: block;          /* Zentrierung erfordert block-level */
+  backgroundcolor:  #f0f0f0;
+  padding: 10px;
 }
