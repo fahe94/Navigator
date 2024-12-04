@@ -95,7 +95,7 @@ p{
   cursor: pointer;
 }
 
-/* Website-Inhalt */
+/* Website-Inhalt */  
 #content {
   position: relative;
   text-align: center;
@@ -107,6 +107,9 @@ p{
 
 
 .windrose-box{
+    position: fixed;
+    top: 10%;
+    left:40%;
     background-color: white;
     padding: 20px;
     display: inline-block;
