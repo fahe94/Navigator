@@ -107,9 +107,6 @@ p{
 
 
 .windrose-box{
-    position: fixed;
-    top: 10%;
-    left:50%;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
     display: inline-block;
