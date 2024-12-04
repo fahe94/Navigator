@@ -120,3 +120,11 @@ p{
   width: 250px;
   height: auto;
 }
+.center-container{
+    display: flex;
+    justify-content: center; /* Horizontal zentrieren */
+    align-items: center;    /* Vertikal zentrieren */
+    height: 100vh;          /* Nimmt die volle Höhe des Viewports ein */
+    background-color: rgba(0, 0, 0, 0.1); /* Optional: leicht grauer Hintergrund */
+    margin: 0;              /* Entfernt Standardabstände des Browsers */
+}
