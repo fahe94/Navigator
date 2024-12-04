@@ -105,4 +105,8 @@ p{
   display: none; /* Versteckt bis Login */
 }
 
-
+.windrose{
+      width: 300px;            /* Feste Breite */
+    margin: 20px auto;       /* Zentrieren mit Abstand */
+    display: block;          /* Zentrierung erfordert block-level */
+}
