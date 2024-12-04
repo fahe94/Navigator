@@ -109,7 +109,7 @@ p{
 .windrose-box{
     position: fixed;
     top: 10%;
-    left:40%;
+    left:50%;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
     display: inline-block;
@@ -117,6 +117,6 @@ p{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Option: Schatten */
 }
 .windrose-img{
-  width: 150px;
+  width: 250px;
   height: auto;
 }
