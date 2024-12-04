@@ -40,7 +40,7 @@ p{
 /* Halbtransparentes Feld */
 .text-box {
   position: fixed;
-  top: 30%;
+  top: 40%;
   left: 7%;
   background-color: rgba(0, 0, 0, 0.8); /* Schwarz mit 50% Transparenz */
   padding: 20px;
