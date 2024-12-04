@@ -106,10 +106,14 @@ p{
 }
 
 
-.windrose{
-    display: block;         /* Block-Darstellung für besseres Layout */
-    margin: 20px auto;      /* Zentrieren des Bildes */
-    width: 300px;            /* Feste Breite */
-  backgroundcolor:  #c41010;
-  padding: 10px;
+.windrose-box{
+    background-color: white;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px; /* Option: Abgerundete Ecken */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Option: Schatten */
+}
+.windrose-img{
+  width: 150px;
+  height: auto;
 }
