@@ -9,13 +9,13 @@ body, html {
 
 h1{
   color: #00ff00;
-  font-size: 2vw;
+  font-size: 3vw;
   font-weight: bold;
 }
 
 p{
   color:  #00ff00;
-  font-size: 0.5vw; 
+  font-size: 1.5vw; 
 }
 
     .container {
