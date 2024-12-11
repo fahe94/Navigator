@@ -58,8 +58,12 @@ p{
    }
 
    h1 {
-       font-size: 2rem; /* Kleinere Schrift für kleine Geräte */
+       font-size: 2vw; /* Kleinere Schrift für kleine Geräte */
    }
+  p{
+      color:  #00ff00;
+      font-size:  clamp(14px, 2vw, 20px); 
+}
 }
 
 .flex-container {
