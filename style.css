@@ -58,7 +58,7 @@ p{
    }
 
    h1 {
-       font-size: 2vw; /* Kleinere Schrift für kleine Geräte */
+       font-size:  clamp(16px, 3vw, 24px);  /* Kleinere Schrift für kleine Geräte */
    }
   p{
       color:  #00ff00;
